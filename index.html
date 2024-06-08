@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleCP.css">
+    <title>Carlos Páez</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="h1">
+            <img src="img/logo.png" width="80px" height="80px">
+            <a href="#" class="a"></a>
+        </h1>
+        <button class="button">
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </button>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a class="a btnEdu" href="#">Educación</a></li>
+                <li class="li"><a class="a btnExp" href="#">Experiencia</a></li>
+                <li class="li"><a class="a btnHab" href="#">Habilidades</a></li>
+                <li class="li"><a class="a btnPro" href="#">Proyectos</a></li>
+                <li class="li"><a class="a btnCer" href="#">Certificaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="division">
+        <aside>
+            <h2>Información Personal</h2>
+            <p id="paside"> Tengo 33 años y actualmente vivo en Bogotá. 
+                Mi pasatiempos favorito son los videojuegos y las motocicletas.
+                Y desde hace un tiempo, me ha interesado el Desarrollo Web.
+                Espero continuar con el aprendizaje día a día y disfrutar todo esto.
+            </p>
+            <div class="logo btnContact">
+            </div>
+            <!-- Información ventana emergente Contacto-->
+            <section class="modal">
+                <div class="vEmergente">
+                    <h2 class="h2Modal">Contacto</h2>
+                    <p class="pInformacion">
+                        <div class="contacto">
+                            <input class="textbox" type="text" placeholder="Nombre"><br/>
+                            <input class="textbox" type="email" name="email" id="email" placeholder="Correo electrónico"><br/>
+                            <input class="textbox" type="number" name="celular" id="celular" placeholder="Celular"><br/>
+                            <textarea class="textbox" name="mensaje" id="mensaje"></textarea><br/>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Borrar</button>
+                        </div>
+                    </p>
+                    <a href="#" class="aSalir">Cerrar</a>
+                </div>
+            </section>
+        </aside>
+        <section>
+            <div id="foto">
+                <div class="imagen">
+                    <!-- <img src="./img/foto.png" width="200px" height="200px"> -->
+            </div>
+                <h2 id="h2Section">Carlos E. Páez Medina</h2>
+                <p id="pfoto">caelpacri@hotmail.com <br/>
+                318 688 0880
+                </p>
+                </div>
+        </section>
+    </div>    
+    <!-- Información del menú -->
+    <section class="modEdu">
+        <div class="vEmergente">
+            <h2 id="h2Modal">Formación</h2>
+            <p id="pInformacion">
+                <h3 class="h3">Desarrollo web full stack</h3>
+                Talento Tech<br/>
+                2024 <br/>
+                <h3 class="h3">Técnico en Sistemas y contabilidad</h3>
+                Instituto Técnico Master Web<br/>
+                2008 <br/>
+            </p>
+            <a href="#" class="aSalir aSalirEdu">Cerrar</a>
+        </div>
+    </section>
+    <section class="modExp">
+        <div class="vEmergente">
+            <h2 id="h2Modal">Experiencia Laboral</h2>
+            <p id="pInformacion">
+                <h3 class="h3">Teleperformance</h3>
+                <br/>Cargo: Asesor de servicios<br/>
+                Función: Soporte técnico<br/>
+                *Asistir telefónicamente a los clientes.<br/>
+                *Escuchar y reconocer las necesidades de los clientes para poder identificar la solución correcta.<br/>
+                *Cumplir con las políticas de privacidad y seguridad de la información.<br/>
+                *Usar las herramientas y recursos provistos por la compañía para solicionar los problemas de los clientes.<br/>
+                *Asegurarse de seguir los procesos necesarios para solucionar los problemas de los clientes.<br/>
+                Inicio: 31-Octubre-2016<br/>
+                Terminación: 2-Diciembre-2018<br/>
+            </p>
+            <a href="#" class="aSalir aSalirExp">Cerrar</a>
+        </div>
+    </section>
+    <section class="modHab">
+        <div class="vEmergente">
+            <h2 id="h2Modal">Habilidades</h2>
+            <p id="pInformacion">
+                <h3 class="h3">Power Skills</h3>
+                *Atención al detalle<br/>
+                *Trabajo en equipo<br/>
+                *Adaptabilidad<br/>
+                <h3 class="h3">Other Skills</h3>
+                *Conocimientos en GitHub<br/>
+                *Conociemientos en Javascript<br/>
+            </p>
+            <a href="#" class="aSalir aSalirHab">Cerrar</a>
+        </div>
+    </section>
+    <section class="modPro">
+        <div class="vEmergente">
+            <h2 id="h2Modal">Proyectos</h2>
+            <p id="pInformacion">
+                <h3 class="h3">Login</h3>
+                <a href=""></a>xxxxxxx<br/>
+                2024 <br/>
+                <h3 class="h3">Tarjetas de productos</h3>
+                <a href=""></a>xxxxxxx<br/>
+                2024 <br/>
+                <h3 class="h3">Galería de fotos</h3>
+                <a href=""></a>xxxxxxx<br/>
+                2024 <br/>
+                <h3 class="h3">Piedra, papel o tijera</h3>
+                <a href=""></a>xxxxxxx<br/>
+                2024 <br/>
+                <h3 class="h3">Adivinar el número</h3>
+                <a href=""></a>xxxxxxx<br/>
+                2024 <br/>
+            </p>
+            <a href="#" class="aSalir aSalirPro">Cerrar</a>
+        </div>
+    </section>
+    <section class="modCer">
+        <div class="vEmergente">
+            <h2 id="h2Modal">Certificaciones</h2>
+            <p id="pInformacion">
+                <h3 class="h3">Desarrollo web full stack</h3>
+                Talento Tech<br/>
+                2024 <br/>
+            </p>
+            <a href="#" class="aSalir aSalirCer">Cerrar</a>
+        </div>
+    </section>
+
+<script src="Funcionalidades.js"></script>
+
+<footer>Carlos Páez, 2024</footer>
+</body>
+</html>
